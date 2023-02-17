@@ -1,0 +1,10 @@
+run = ["make", "run"]
+
+entrypoint = "run.sh"
+hidden = [".gitignore", ".envhash"]
+
+[nix]
+channel = "stable-21_11"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
